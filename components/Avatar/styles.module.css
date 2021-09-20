@@ -1,0 +1,19 @@
+.button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+}
+.img {
+	width: 2rem;
+	border-radius: 999px;
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	-ms-border-radius: 999px;
+	-o-border-radius: 999px;
+}
+.img:hover {
+	filter: grayscale(100);
+	-webkit-filter: grayscale(100);
+	transition-duration: 0.4s;
+}
