@@ -1,0 +1,29 @@
+.linkbutton {
+	display: flex;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	background: #050505;
+	width: 120px;
+	height: 40px;
+	box-shadow: 0px 4px 10px #05050533;
+	border-radius: 10px;
+	transition: 0.3s ease-in-out;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.linkbutton:hover {
+	background: #29009b;
+	transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+}
+.linkbutton > a {
+	color: #fff;
+	text-decoration: none;
+}

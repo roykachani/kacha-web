@@ -1,0 +1,48 @@
+.body_container {
+	width: 42%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.text_container > h2 {
+	margin: 0;
+	font-size: 2.25rem;
+	display: block;
+	color: #29009b;
+	letter-spacing: 0.1rem;
+}
+.role {
+	display: block;
+	padding: 0.7rem 0;
+}
+
+.img {
+	margin-top: 2rem;
+	width: 42%;
+}
+.img > a {
+	width: auto;
+	height: auto;
+	text-decoration: none;
+}
+.image {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0.2rem;
+	box-shadow: 0px 4px 30px rgba(125, 69, 223, 0.5);
+	transition: 0.6s ease-in-out;
+	/* box-shadow: 0px 4px 10px #0505056b; */
+	-webkit-border-radius: 0.2rem;
+	-moz-border-radius: 0.2rem;
+	-ms-border-radius: 0.2rem;
+	-o-border-radius: 0.2rem;
+}
+.image:hover {
+	box-shadow: 0px 10px 120px rgba(125, 69, 223, 0.5);
+	transition: 0.6s ease-in-out;
+	-webkit-transition: 0.6s ease-in-out;
+	-moz-transition: 0.6s ease-in-out;
+	-ms-transition: 0.6s ease-in-out;
+	-o-transition: 0.6s ease-in-out;
+}
