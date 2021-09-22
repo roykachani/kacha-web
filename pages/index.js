@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Footer } from '../components/Footer';
 import { Nav } from '../components/Nav';
 import { WorkContainer } from '../components/WorkContainer';
 import styles from '../styles/Home.module.css';
@@ -39,6 +40,7 @@ export default function Home() {
 					))}
 				</div>
 			</section>
+			<Footer />
 		</>
 	);
 }
