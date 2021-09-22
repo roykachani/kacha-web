@@ -81,6 +81,7 @@
 }
 .projects_title {
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	background: #050505;
 	color: #fff;

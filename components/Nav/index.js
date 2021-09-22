@@ -8,7 +8,7 @@ export const Nav = ({ open, setOpen }) => {
 				<div className={styles.nav}>
 					<div className={styles.nav_items}>
 						<div className={styles.logo}>
-							<h1>Roy.</h1>
+							<h1>Roy Kachani.</h1>
 						</div>
 						<div className={styles.avatar}>
 							<Avatar open={open} setOpen={setOpen}>
