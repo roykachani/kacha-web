@@ -10,8 +10,10 @@ export const WorkContainer = ({ w, index }) => {
 					<span className={styles.role}>
 						{w.role} | {w.type}
 					</span>
-					<span className="">{w.description}</span>
-					<div className="">
+					<div className={styles.description}>
+						<span>{w.description}</span>
+					</div>
+					<div className={styles.btn_link}>
 						<LinkButton url={w.url} type={w.type} />
 					</div>
 				</div>

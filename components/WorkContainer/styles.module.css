@@ -52,3 +52,25 @@
 	-ms-transition: 0.6s ease-in-out;
 	-o-transition: 0.6s ease-in-out;
 }
+
+/*mobile*/
+@media screen and (max-width: 540px) {
+	.body_container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.description {
+		margin: 0 0.5rem;
+	}
+
+	.img {
+		visibility: hidden;
+		width: 0;
+	}
+	.btn_link {
+		display: flex;
+		justify-content: center;
+	}
+}
