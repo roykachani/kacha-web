@@ -1,11 +1,11 @@
 .header {
 	display: flex;
 	height: 120px;
+	width: 100%;
 	position: sticky;
 	border-bottom: 1px solid #0505051e;
 	top: 0;
 	align-items: center;
-	width: 100%;
 	backdrop-filter: blur(5px);
 	padding: 32px;
 }
@@ -20,10 +20,10 @@
 	margin: 0 254px;
 }
 .nav_items {
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
-	display: flex;
 }
 
 .avatar {
@@ -32,4 +32,22 @@
 
 .logo {
 	padding-left: 12rem;
+}
+
+@media screen and (max-width: 540px) {
+	.header {
+		padding: 0;
+		height: 90px;
+	}
+	.nav {
+		margin: 0;
+		padding: 0 1rem;
+	}
+	.avatar {
+		padding-right: 0rem;
+	}
+
+	.logo {
+		padding-left: 0rem;
+	}
 }

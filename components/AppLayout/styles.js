@@ -16,26 +16,27 @@ export const globalStyles = css.global`
 `;
 
 export default css`
-	div {
-		/* display: grid; */
-		/* place-items: center; */
-	}
 	main {
-		/* background: #fff; */
-		/* border-radius: 10px; */
-		/* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
-		/* display: flex; */
-		/* flex-direction: column; */
-
-		/* height: 100%; */
-		/* overflow-y: auto; */
-
 		width: 100%;
 	}
-	/* @media (min-width: ${breakpoints.mobile}) {
-		main {
-			height: 90vh;
-			width: ${breakpoints.mobile};
+
+	@media screen and (max-width: 720px) {
+		body {
+			width: 720px;
 		}
-	} ; */
+		main {
+			background: red;
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: ${breakpoints.mobile}) {
+		body {
+			width: ${breakpoints.mobile};
+			width: 100%;
+			margin: 0 auto;
+		}
+		main {
+			background: yellow;
+		}
+	}
 `;

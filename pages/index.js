@@ -11,6 +11,7 @@ export default function Home() {
 				<span className="text-gray-600 font-semibold text-lg">
 					Hello, I&apos;m a
 				</span>
+				{/* <div> */}
 				<h1>
 					<div className={styles.line1}>Software Developer</div>
 					<div className={styles.lineBox}>
@@ -18,6 +19,7 @@ export default function Home() {
 						<div className={styles.line3}>Argentina.</div>
 					</div>
 				</h1>
+				{/* </div> */}
 				<Link href="#">
 					<div className={styles.button_contact}>
 						<a>Get in touch!</a>
