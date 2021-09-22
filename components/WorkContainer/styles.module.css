@@ -10,10 +10,14 @@
 	font-size: 2.25rem;
 	display: block;
 	color: #29009b;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.05rem;
 }
 .role {
 	display: block;
+	color: #05050579;
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.025rem;
 	padding: 0.7rem 0;
 }
 
@@ -29,14 +33,16 @@
 .image {
 	max-width: 100%;
 	height: auto;
-	border-radius: 0.2rem;
+	border-radius: 0.6rem;
 	box-shadow: 0px 4px 30px rgba(125, 69, 223, 0.5);
 	transition: 0.6s ease-in-out;
-	/* box-shadow: 0px 4px 10px #0505056b; */
+	/*box-shadow: 0px 4px 10px #0505056b;
+	*/
 	-webkit-border-radius: 0.2rem;
-	-moz-border-radius: 0.2rem;
-	-ms-border-radius: 0.2rem;
-	-o-border-radius: 0.2rem;
+	-moz-border-radius: 0.6rem;
+	-ms-border-radius: 0.6rem;
+	-o-border-radius: 0.6rem;
+	-webkit-border-radius: 0.6rem;
 }
 .image:hover {
 	box-shadow: 0px 10px 120px rgba(125, 69, 223, 0.5);
