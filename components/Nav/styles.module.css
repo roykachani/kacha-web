@@ -5,6 +5,7 @@
 	position: sticky;
 	border-bottom: 1px solid #0505051e;
 	top: 0;
+	justify-content: center;
 	align-items: center;
 	backdrop-filter: saturate(180%) blur(8px);
 	-webkit-backdrop-filter: saturate(180%) blur(8px);
@@ -15,24 +16,15 @@
 	font-weight: 800;
 }
 .nav {
-	width: 100%;
+	width: 900px;
 	align-items: center;
 	justify-content: center;
-	margin: 0 254px;
 }
 .nav_items {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
-}
-
-.avatar {
-	padding-right: 12rem;
-}
-
-.logo {
-	padding-left: 12rem;
 }
 
 @media screen and (max-width: 540px) {
