@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 export const DropDownMenu = () => {
 	const DropDownItem = (props) => {
 		return (
-			<Link href={`/${props.children}`}>
+			<Link href={`/${props.children.toLowerCase()}`}>
 				<a className={styles.menu_item}>{props.children}</a>
 			</Link>
 		);

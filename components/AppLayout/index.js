@@ -16,18 +16,18 @@ export const AppLayout = ({ children }) => {
 					name="keywords"
 					content="Software, Developer, Programmer, Web, Fullstack, Frontend, Backend"
 				/>
-				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				{/* <link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link
 					rel="preconnect"
 					href="https://fonts.gstatic.com"
 					crossOrigin="true"
-				/>
-				<link
+				/> */}
+				{/* <link
 					href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;800&display=swap"
 					rel="stylesheet"
-				></link>
+				></link> */}
 				<link
-					href="http://fonts.cdnfonts.com/css/itc-avant-garde-pro-md"
+					href="https://fonts.cdnfonts.com/css/itc-avant-garde-pro-md"
 					rel="stylesheet"
 				></link>
 			</Head>

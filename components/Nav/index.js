@@ -12,7 +12,9 @@ export const Nav = ({ open, setOpen }) => {
 						</div>
 						<div className={styles.avatar}>
 							<Avatar open={open} setOpen={setOpen}>
-								<DropDownMenu />
+								<div className={styles.dropDownMenu_container}>
+									<DropDownMenu />
+								</div>
 							</Avatar>
 						</div>
 					</div>

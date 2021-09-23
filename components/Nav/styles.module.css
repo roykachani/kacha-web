@@ -26,6 +26,14 @@
 	justify-content: space-between;
 	width: 100%;
 }
+.dropDownMenu_container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+/*responsive*/
 
 @media screen and (max-width: 540px) {
 	.header {
@@ -36,13 +44,6 @@
 		margin: 0;
 		padding: 0 1rem;
 	}
-	.avatar {
-		padding-right: 0rem;
-	}
-
-	.logo {
-		padding-left: 0rem;
-	}
 }
 @media screen and (max-width: 767px) {
 	.header {
@@ -51,7 +52,7 @@
 	}
 	.nav {
 		margin: 0;
-		padding: 0 1rem;
+		padding: 0 3rem;
 	}
 	.avatar {
 		padding-right: 0rem;
@@ -68,7 +69,7 @@
 	}
 	.nav {
 		margin: 0;
-		padding: 0 1rem;
+		padding: 0 3rem;
 	}
 	.avatar {
 		padding-right: 0rem;

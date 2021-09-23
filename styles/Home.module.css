@@ -20,6 +20,7 @@
 .lineBox {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .line1 {
 	color: #29009b;
