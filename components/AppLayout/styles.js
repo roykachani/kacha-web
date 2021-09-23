@@ -20,9 +20,9 @@ export default css`
 		width: 100%;
 	}
 
-	@media screen and (max-width: 720px) {
+	@media screen and (max-width: 767px) {
 		body {
-			width: 720px;
+			width: 767px;
 		}
 		main {
 			background: red;
