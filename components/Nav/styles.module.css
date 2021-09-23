@@ -6,7 +6,8 @@
 	border-bottom: 1px solid #0505051e;
 	top: 0;
 	align-items: center;
-	backdrop-filter: blur(5px);
+	backdrop-filter: saturate(180%) blur(8px);
+	-webkit-backdrop-filter: saturate(180%) blur(8px);
 	padding: 32px;
 }
 .header h1 {
