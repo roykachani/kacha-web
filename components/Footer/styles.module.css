@@ -7,14 +7,18 @@
 }
 .footer {
 	width: 900px;
+	height: 100%;
 }
 .footer_box {
+	height: 100%;
 	width: 100%;
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 .box_r {
 	width: 40%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -22,6 +26,8 @@
 
 .anchor_box {
 	margin: 0 0.4rem;
+	height: 25px;
+	width: 25px;
 }
 .anchor {
 	display: flex;
