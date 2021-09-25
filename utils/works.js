@@ -7,7 +7,7 @@ const works = [
 		description:
 			'Twittcoff is a twitter clone project, made in Next js with its own backend and database. I use firebase auth for authentication, allowing to save tweets with images and show them in timeline.',
 		type: 'Project',
-		url: 'https://www.twittercoff.vercel.app',
+		url: 'https://twittercoff.vercel.app',
 		image: '../images/Twittcoff.png',
 	},
 	{

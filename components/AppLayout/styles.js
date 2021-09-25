@@ -24,19 +24,12 @@ export default css`
 		body {
 			width: 767px;
 		}
-		main {
-			background: red;
-			width: 100%;
-		}
 	}
 	@media screen and (max-width: ${breakpoints.mobile}) {
 		body {
 			width: ${breakpoints.mobile};
 			width: 100%;
 			margin: 0 auto;
-		}
-		main {
-			background: yellow;
 		}
 	}
 `;
