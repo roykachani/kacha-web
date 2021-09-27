@@ -1,7 +1,6 @@
 export const usePost = () => {
 	const postData = async (url, object) => {
 		try {
-			setfetching(true);
 			//data
 			const { data } = await fetch(url, {
 				method: 'POST',

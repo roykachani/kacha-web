@@ -16,7 +16,7 @@ export const ContactForm = () => {
 	});
 
 	const handleForm = (data) => {
-		post('http://localhost:3000/api/contact', data);
+		post(`${process.env.URL}/api/contact`, data);
 		router.push('/');
 	};
 
