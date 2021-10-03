@@ -1,78 +1,76 @@
-import {
-	HTMLIcon,
-	CSSIcon,
-	JavaScriptIcon,
-	BootstrapIcon,
-	VueJSIcon,
-	FigmaIcon,
-	GitIcon,
-	ReactJSIcon,
-	NextJSIcon,
-	TalwindCSSIcon,
-	NodeJSIcon,
-	PostgreSQLIcon,
-} from '../components/SkillsIcons';
+import HTMLIcon from '../components/Icons/Skills/HtmlIcon';
+import CSSIcon from '../components/Icons/Skills/CSSIcon';
+import JavaScriptIcon from '../components/Icons/Skills/JavaScriptIcon';
+import ReactJSIcon from '../components/Icons/Skills/ReactJSIcon';
+import BootstrapIcon from '../components/Icons/Skills/BootstrapIcon';
+import GitIcon from '../components/Icons/Skills/GitIcon';
+import NodeJSIcon from '../components/Icons/Skills/NodeJSIcon';
+import ExpressJSIcon from '../components/Icons/Skills/ExpressJSIcon';
+import MongoDBIcon from '../components/Icons/Skills/MongoDBIcon';
+import AWSIcon from '../components/Icons/Skills/AWSIcon';
+import NginXIcon from '../components/Icons/Skills/NginXIcon';
+import NextJSIcon from '../components/Icons/Skills/NextJSIcon';
 
 const skills = [
 	{
 		name: 'HTML',
 		year: '2020',
-		icon: <HTMLIcon className="w-12 h-12" />,
+		icon: <HTMLIcon />,
 	},
 	{
 		name: 'CSS',
 		year: '2020',
-		icon: <CSSIcon className="w-12 h-12" />,
+		icon: <CSSIcon />,
 	},
 	{
 		name: 'JavaScript',
 		year: '2020',
-		icon: <JavaScriptIcon className="w-12 h-12" />,
+		icon: <JavaScriptIcon />,
 	},
 	{
 		name: 'React JS',
 		year: '2020',
-		icon: <ReactJSIcon className="w-12 h-12" />,
+		icon: <ReactJSIcon />,
 	},
 	{
 		name: 'Bootstrap',
 		year: '2020',
-		icon: <BootstrapIcon className="w-12 h-12" />,
+		icon: <BootstrapIcon />,
 	},
 	{
 		name: 'Git',
 		year: '2020',
-		icon: <GitIcon className="w-12 h-12" />,
+		icon: <GitIcon />,
 	},
 	{
 		name: 'Node JS',
 		year: '2020',
-		icon: <NodeJSIcon className="w-12 h-12" />,
+		icon: <NodeJSIcon />,
 	},
 	{
 		name: 'Express JS',
 		year: '2020',
-		icon: <NodeJSIcon className="w-12 h-12" />,
+		icon: <ExpressJSIcon />,
 	},
 	{
-		name: 'Mongoose',
+		name: 'Mongo DB',
 		year: '2020',
-		icon: <NodeJSIcon className="w-12 h-12" />,
+		icon: <MongoDBIcon />,
 	},
 	{
 		name: 'AWS',
 		year: '2020',
-		icon: <NodeJSIcon className="w-12 h-12" />,
+		icon: <AWSIcon />,
 	},
 	{
 		name: 'NginX',
 		year: '2021',
-		icon: <NextJSIcon className="w-12 h-12" />,
+		icon: <NginXIcon />,
 	},
 	{
 		name: 'Next JS',
 		year: '2021',
-		icon: <NextJSIcon className="w-12 h-12" />,
+		icon: <NextJSIcon />,
 	},
 ];
 
