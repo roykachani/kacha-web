@@ -1,4 +1,4 @@
-import HTMLIcon from '../components/Icons/Skills/HtmlIcon';
+import HTMLIcon from '../components/Icons/Skills/HTMLIcon';
 import CSSIcon from '../components/Icons/Skills/CSSIcon';
 import JavaScriptIcon from '../components/Icons/Skills/JavaScriptIcon';
 import ReactJSIcon from '../components/Icons/Skills/ReactJSIcon';
@@ -10,7 +10,7 @@ import MongoDBIcon from '../components/Icons/Skills/MongoDBIcon';
 import AWSIcon from '../components/Icons/Skills/AWSIcon';
 import NginXIcon from '../components/Icons/Skills/NginXIcon';
 import NextJSIcon from '../components/Icons/Skills/NextJSIcon';
-
+//ver si se pueden impor tar de forma mas corta
 const skills = [
 	{
 		name: 'HTML',
