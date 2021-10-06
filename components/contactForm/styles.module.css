@@ -49,9 +49,10 @@
 	font-family: ITC Avant Garde Pro Md, sans-serif;
 	font-weight: 600;
 	letter-spacing: 0.03rem;
-	border: none;
-	background: #fff;
-	box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075);
+	border: 1.5px solid #09e85e;
+	color: #09e85e;
+	background: #050505;
+	/* box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075); */
 	border-radius: 8px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -60,8 +61,11 @@
 	transition-duration: 0.5s;
 }
 .form_btn:hover {
-	background: #28009b;
-	color: #fff;
+	cursor: pointer;
+	background: #210b5f;
+	border: 1.5px solid #09e85e;
+	color: #09e85e;
+	/* border: none; */
 	transition-duration: 0.5s;
 }
 

@@ -16,7 +16,7 @@ export const ContactForm = () => {
 	});
 
 	const handleForm = (data) => {
-		post(`${process.env.URL}/api/contact`, data);
+		post('https://roykachani.vercel.app/api/contact', data);
 		router.push('/');
 	};
 
@@ -50,7 +50,7 @@ export const ContactForm = () => {
 					/>
 				</div>
 				<button className={styles.form_btn} type="submit">
-					Send!
+					Send
 				</button>
 			</form>
 		</div>

@@ -10,9 +10,7 @@ export default function Home() {
 		<>
 			<Nav />
 			<section className={styles.welcome_container}>
-				<span className="text-gray-600 font-semibold text-lg">
-					Hello, I&apos;m a
-				</span>
+				<span className={styles.welcome_span}>Hello, I&apos;m a</span>
 				<h1>
 					<div className={styles.line1}>Software Developer</div>
 					<div className={styles.lineBox}>
@@ -21,9 +19,9 @@ export default function Home() {
 					</div>
 				</h1>
 				<Link href="/contact">
-					<div className={styles.button_contact}>
-						<a>Get in touch!</a>
-					</div>
+					<a className={styles.button_contact} href="/contact">
+						Get in touch!
+					</a>
 				</Link>
 			</section>
 			<section className={styles.projects_section_container}>
