@@ -1,5 +1,4 @@
 import Head from 'next/head';
-// import { Nav } from '../nav';
 
 import styles, { globalStyles } from './styles';
 
@@ -16,16 +15,21 @@ export const AppLayout = ({ children }) => {
 					name="keywords"
 					content="Software, Developer, Programmer, Web, Fullstack, Frontend, Backend"
 				/>
-				{/* <link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link
-					rel="preconnect"
-					href="https://fonts.gstatic.com"
-					crossOrigin="true"
-				/> */}
-				{/* <link
-					href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;800&display=swap"
-					rel="stylesheet"
-				></link> */}
+				<meta property="og:title" content="Roy Kachani" />
+				<meta property="og:site_name" content="Roy Kachani" />
+				<meta name="author" content="Nuzze" />
+				<meta property="og:url" content="https://roykachani.vercel.app/" />
+				<meta
+					property="og:description"
+					content="I'm Roy Kachani a 30 years old Software developer born in Buenos Aires, Argentina."
+				/>
+				<meta
+					property="og:image"
+					content="https://roykachani.vercel.app/images/img.jpeg"
+				/>
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:site" value="@roykachani" />
+				{/* <link rel="icon" type="image/png" href="images/favicon.png" /> */}
 				<link
 					href="https://fonts.cdnfonts.com/css/itc-avant-garde-pro-md"
 					rel="stylesheet"
