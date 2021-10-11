@@ -11,7 +11,12 @@ export const Avatar = (props) => {
 				className={styles.button}
 				onClick={() => setOpen(!open)}
 			>
-				<img className={styles.img} alt="Roy-img" src="/img.jpeg" />
+				<img
+					loading="lazy"
+					className={styles.img}
+					alt="Roy-img"
+					src="/img.jpeg"
+				/>
 			</button>
 			{!!open && props.children}
 		</>

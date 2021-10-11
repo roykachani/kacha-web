@@ -6,6 +6,8 @@
 }
 .img {
 	width: 2.5rem;
+	height: 2.5rem;
+	object-fit: cover;
 	border-radius: 999px;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
