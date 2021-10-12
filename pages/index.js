@@ -15,7 +15,7 @@ export default function Home() {
 					<div className={styles.line1}>Software Developer</div>
 					<div className={styles.lineBox}>
 						<div className={styles.line2}>from </div>
-						<div className={styles.line3}>Argentina.</div>
+						<div className={styles.line3}>Argentina</div>
 					</div>
 				</h1>
 				<Link href="/contact">

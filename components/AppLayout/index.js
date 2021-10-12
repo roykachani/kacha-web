@@ -29,7 +29,18 @@ export const AppLayout = ({ children }) => {
 				/>
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" value="@roykachani" />
-				{/* <link rel="icon" type="image/png" href="images/favicon.png" /> */}
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="32x32"
+					href="/favicon-32x32.png"
+				/>
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="16x16"
+					href="/favicon-16x16.png"
+				/>
 				<link
 					href="https://fonts.cdnfonts.com/css/itc-avant-garde-pro-md"
 					rel="stylesheet"
