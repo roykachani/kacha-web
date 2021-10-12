@@ -18,8 +18,6 @@
 }
 .nav {
 	width: 900px;
-	align-items: center;
-	justify-content: center;
 }
 .nav_items {
 	display: flex;
@@ -32,6 +30,15 @@
 	justify-content: center;
 	width: 100%;
 	height: auto;
+}
+.box_logo {
+	height: 27px;
+}
+.logo {
+	width: 170px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /*responsive*/
