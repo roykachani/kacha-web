@@ -6,12 +6,22 @@ export const DropDownMenu = () => {
 		if (props.children == 'Resume')
 			return (
 				<Link href={'cv/Roy_kachani_desarrollo_web_oct2021_v2.pdf'}>
-					<a className={styles.menu_item}>{props.children}</a>
+					<a
+						href={'cv/Roy_kachani_desarrollo_web_oct2021_v2.pdf'}
+						className={styles.menu_item}
+					>
+						{props.children}
+					</a>
 				</Link>
 			);
 		return (
 			<Link href={`/${props.children.toLowerCase()}`}>
-				<a className={styles.menu_item}>{props.children}</a>
+				<a
+					href={`/${props.children.toLowerCase()}`}
+					className={styles.menu_item}
+				>
+					{props.children}
+				</a>
 			</Link>
 		);
 	};
