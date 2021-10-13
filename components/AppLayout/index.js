@@ -2,7 +2,10 @@ import Head from 'next/head';
 
 import styles, { globalStyles } from './styles';
 
-export const AppLayout = ({ children }) => {
+export const AppLayout = ({ children, open, setOpen }) => {
+	const handleMenu = () => {
+		if (open) setOpen(false);
+	};
 	return (
 		<>
 			<Head>
@@ -47,7 +50,7 @@ export const AppLayout = ({ children }) => {
 				></link>
 			</Head>
 
-			<main>{children}</main>
+			<main onClick={handleMenu}>{children}</main>
 
 			<style jsx>{styles}</style>
 			<style jsx global>

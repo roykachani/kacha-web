@@ -5,13 +5,13 @@ import { Nav } from '../components/Nav';
 import skills from '../utils/skills';
 import styles from '../styles/Skills.module.css';
 
-export default function Skills() {
+export default function Skills({ open, setOpen }) {
 	return (
 		<>
 			<Head>
 				<title>Skills | Roy Kachani</title>
 			</Head>
-			<Nav />
+			<Nav open={open} setOpen={setOpen} />
 			<div className={styles.skills_container}>
 				<div className={styles.skills_title}>
 					<h1>Skills</h1>

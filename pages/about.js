@@ -5,13 +5,13 @@ import { Nav } from '../components/Nav';
 import { Footer } from '../components/Footer';
 import styles from '../styles/About.module.css';
 
-export default function About() {
+export default function About({ open, setOpen }) {
 	return (
 		<>
 			<Head>
 				<title>About | Roy Kachani</title>
 			</Head>
-			<Nav />
+			<Nav open={open} setOpen={setOpen} />
 			<div className={styles.about_container}>
 				<div className={styles.about_title}>
 					<h1>About</h1>

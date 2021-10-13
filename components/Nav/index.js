@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-import { Avatar } from '../Avatar';
 import { DropDownMenu } from '../DropDownMenu';
 
 import styles from './styles.module.css';
@@ -22,11 +21,23 @@ export const Nav = ({ open, setOpen }) => {
 							</Link>
 						</div>
 						<div className={styles.avatar}>
-							<Avatar open={open} setOpen={setOpen}>
+							<button
+								type="button"
+								className={styles.button}
+								onClick={() => setOpen(!open)}
+							>
+								<img
+									loading="lazy"
+									className={styles.img}
+									alt="Roy-img"
+									src="/img.jpeg"
+								/>
+							</button>
+							{!!open && (
 								<div className={styles.dropDownMenu_container}>
 									<DropDownMenu />
 								</div>
-							</Avatar>
+							)}
 						</div>
 					</div>
 				</div>

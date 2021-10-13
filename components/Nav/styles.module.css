@@ -41,6 +41,31 @@
 	justify-content: center;
 }
 
+/* probando menu */
+
+.button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+}
+.img {
+	width: 2.5rem;
+	height: 2.5rem;
+	object-fit: cover;
+	border-radius: 999px;
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	-ms-border-radius: 999px;
+	-o-border-radius: 999px;
+	transition-duration: 0.4s;
+}
+.img:hover {
+	filter: grayscale(100);
+	-webkit-filter: grayscale(100);
+	transition-duration: 0.4s;
+}
+
 /*responsive*/
 
 @media screen and (max-width: 540px) {

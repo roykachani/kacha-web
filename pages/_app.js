@@ -1,9 +1,13 @@
+import { useState } from 'react';
+
 import { AppLayout } from '../components/AppLayout';
 
 function MyApp({ Component, pageProps }) {
+	const [open, setOpen] = useState(false);
+
 	return (
-		<AppLayout>
-			<Component {...pageProps} />
+		<AppLayout open={open} setOpen={setOpen}>
+			<Component {...pageProps} open={open} setOpen={setOpen} />
 		</AppLayout>
 	);
 }

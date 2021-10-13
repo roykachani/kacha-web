@@ -1,14 +1,15 @@
 import Link from 'next/link';
+import { set } from 'react-hook-form';
 import { Footer } from '../components/Footer';
 import { Nav } from '../components/Nav';
 import { WorkContainer } from '../components/WorkContainer';
 import styles from '../styles/Home.module.css';
 import works from '../utils/works';
 
-export default function Home() {
+export default function Home({ open, setOpen }) {
 	return (
 		<>
-			<Nav />
+			<Nav open={open} setOpen={setOpen} />
 			<section className={styles.welcome_container}>
 				<span className={styles.welcome_span}>Hello, I&apos;m a</span>
 				<h1>
