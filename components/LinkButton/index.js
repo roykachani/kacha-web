@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 export const LinkButton = ({ url, type }) => {
 	return (
 		<>
-			<div className={styles.linkbutton}>
-				<Link href={url}>
-					<a>{type === 'Project' && 'Open project'}</a>
-				</Link>
-			</div>
+			<Link href={url}>
+				<a className={styles.linkbutton} href={url}>
+					{type === 'Project' && 'Open project'}
+				</a>
+			</Link>
 		</>
 	);
 };
