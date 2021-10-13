@@ -21,6 +21,28 @@ const works = [
 		url: 'https://www.blogblox.com.ar',
 		image: '../images/blogbox.png',
 	},
+	{
+		startDate: 'jan 2021',
+		endDate: 'Now',
+		name: 'RickandMorty',
+		role: 'Creator',
+		description:
+			'Rick and Morty is a web-application project made in React js that allows you to search characters and add to favorite list. This app use the API-REST of Rick and Morty.',
+		type: 'Project',
+		url: 'https://rickandmorty-roykachani.netlify.app/',
+		image: '../images/rickandmorty.png',
+	},
+	{
+		startDate: 'dic 2020',
+		endDate: 'Now',
+		name: 'To Do List',
+		role: 'Creator',
+		description:
+			'Web App "To Do List" project made in React js that allows you create task, mark as done and edit.',
+		type: 'Project',
+		url: 'https://todolist-roykachani.netlify.app/',
+		image: '../images/todolist.png',
+	},
 ];
 
 export default works;
