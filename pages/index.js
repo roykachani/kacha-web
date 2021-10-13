@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { set } from 'react-hook-form';
 import { Footer } from '../components/Footer';
 import { Nav } from '../components/Nav';
 import { WorkContainer } from '../components/WorkContainer';
@@ -29,13 +28,24 @@ export default function Home({ open, setOpen }) {
 				<div className={styles.projects_title}>
 					<h2>PROJECTS</h2>
 				</div>
-
 				<div className={styles.projects_container}>
 					{works.map((w, index) => (
 						<div className={styles.project} key={index}>
 							<WorkContainer w={w} index={index} />
 						</div>
 					))}
+				</div>
+				<div className={styles.more_container}>
+					<div>
+						<Link href="https://www.github.com/roykachani">
+							<a
+								className={styles.more_btn}
+								href="https://www.github.com/roykachani"
+							>
+								More stuff on GitHub
+							</a>
+						</Link>
+					</div>
 				</div>
 			</section>
 			<Footer />
