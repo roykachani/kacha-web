@@ -10,6 +10,7 @@ export const AppLayout = ({ children, open, setOpen }) => {
 		<>
 			<Head>
 				<title>Roy Kachani </title>
+				<meta name="title" content="Roy kachani | Software Developer" />
 				<meta
 					name="description"
 					content="I'm Roy Kachani a 30 years old Software developer born in Buenos Aires, Argentina."
@@ -20,11 +21,11 @@ export const AppLayout = ({ children, open, setOpen }) => {
 				/>
 				<meta property="og:title" content="Roy Kachani" />
 				<meta property="og:site_name" content="Roy Kachani" />
-				<meta name="author" content="Nuzze" />
+				<meta name="author" content="Roy Kachani" />
 				<meta property="og:url" content="https://roykachani.vercel.app/" />
 				<meta
 					property="og:description"
-					content="I'm Roy Kachani a 30 years old Software developer born in Buenos Aires, Argentina."
+					content="I'm Roy Kachani a 31 years old Software developer born in Buenos Aires, Argentina."
 				/>
 				<meta
 					property="og:image"
