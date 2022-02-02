@@ -5,10 +5,8 @@ export const DropDownMenu = () => {
 	const DropDownItem = (props) => {
 		if (props.children == 'Resume')
 			return (
-				<Link href={'cv/Roy_kachani_v2022.pdf'}>
-					<a href={'cv/Roy_kachani_v2022.pdf'} className={styles.menu_item}>
-						{props.children}
-					</a>
+				<Link href={'cv/roykachani2022.pdf'}>
+					<a className={styles.menu_item}>{props.children}</a>
 				</Link>
 			);
 		return (
