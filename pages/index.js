@@ -41,6 +41,7 @@ export default function Home({ open, setOpen }) {
 							<a
 								className={styles.more_btn}
 								href="https://www.github.com/roykachani"
+								target="_blank"
 							>
 								More stuff on GitHub
 							</a>

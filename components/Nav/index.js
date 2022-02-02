@@ -11,7 +11,7 @@ export const Nav = ({ open, setOpen }) => {
 					<div className={styles.nav_items}>
 						<div className={styles.box_logo}>
 							<Link href="/">
-								<a href="/">
+								<a>
 									<img
 										className={styles.logo}
 										src="/logo_Roy.png"
