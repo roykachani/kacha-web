@@ -19,6 +19,10 @@ export const AppLayout = ({ children, open, setOpen }) => {
 					name="keywords"
 					content="Software, Developer, Programmer, Web, Fullstack, Frontend, Backend"
 				/>
+				<meta
+					name="google-site-verification"
+					content="zqC8pr0JR-AJfxtEMhBuipM4gOn0LPOcECOSvooiO_U"
+				/>
 				<meta property="og:title" content="Roy Kachani" />
 				<meta property="og:site_name" content="Roy Kachani" />
 				<meta name="author" content="Roy Kachani" />
@@ -29,8 +33,9 @@ export const AppLayout = ({ children, open, setOpen }) => {
 				/>
 				<meta
 					property="og:image"
-					content="https://roykachani.vercel.app/images/img.jpeg"
+					content="https://roykachani.vercel.app/img.jpeg"
 				/>
+
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" value="@roykachani" />
 				<link
