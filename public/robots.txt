@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roykachani.vercel.app/api/sitemap.xml
