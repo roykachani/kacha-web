@@ -9,32 +9,31 @@ export const AppLayout = ({ children, open, setOpen }) => {
 	return (
 		<>
 			<Head>
-				<title>Roy Kachani </title>
+				<title>Roy Kachani | Software Developer</title>
 				<meta name="title" content="Roy kachani | Software Developer" />
 				<meta
 					name="description"
 					content="I'm Roy Kachani a 30 years old Software developer born in Buenos Aires, Argentina."
 				/>
+				<meta content="Roy Kachani" name="copyright" />
 				<meta
 					name="keywords"
 					content="Software, Developer, Programmer, Web, Fullstack, Frontend, Backend"
 				/>
 				<meta
 					name="google-site-verification"
-					content="zqC8pr0JR-AJfxtEMhBuipM4gOn0LPOcECOSvooiO_U"
+					content="U2v0SLdeGI6pcJaEP4RlwSe_2rtN40IT6e0I6hHRkx0"
 				/>
+				<meta content="#fff" name="theme-color" />
 				<meta property="og:title" content="Roy Kachani" />
 				<meta property="og:site_name" content="Roy Kachani" />
 				<meta name="author" content="Roy Kachani" />
-				<meta property="og:url" content="https://roykachani.vercel.app/" />
+				<meta property="og:url" content="https://roykachani.com/" />
 				<meta
 					property="og:description"
 					content="I'm Roy Kachani a 31 years old Software developer born in Buenos Aires, Argentina."
 				/>
-				<meta
-					property="og:image"
-					content="https://roykachani.vercel.app/img.jpeg"
-				/>
+				<meta property="og:image" content="https://roykachani.com/img.jpeg" />
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" value="@roykachani" />

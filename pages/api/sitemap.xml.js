@@ -16,27 +16,27 @@ export default function handler(req, res) {
       
       
       <url>
-        <loc>https://roykachani.vercel.app/</loc>
+        <loc>https://roykachani.com/</loc>
         <lastmod>2021-10-14T19:42:59+00:00</lastmod>
         <priority>1.00</priority>
       </url>
       <url>
-        <loc>https://roykachani.vercel.app/contact</loc>
+        <loc>https://roykachani.com/contact</loc>
         <lastmod>2021-10-14T19:42:59+00:00</lastmod>
         <priority>0.80</priority>
       </url>
       <url>
-        <loc>https://roykachani.vercel.app/skills</loc>
+        <loc>https://roykachani.com/skills</loc>
         <lastmod>2021-10-14T19:42:59+00:00</lastmod>
         <priority>0.80</priority>
       </url>
       <url>
-        <loc>https://roykachani.vercel.app/about</loc>
+        <loc>https://roykachani.com/about</loc>
         <lastmod>2021-10-14T19:42:59+00:00</lastmod>
         <priority>0.80</priority>
       </url>
       <url>
-        <loc>https://roykachani.vercel.app/about</loc>
+        <loc>https://roykachani.com/about</loc>
         <lastmod>2021-10-14T19:42:59+00:00</lastmod>
         <priority>0.80</priority>
       </url>

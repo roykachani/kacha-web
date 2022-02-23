@@ -16,7 +16,7 @@ export const ContactForm = () => {
 	});
 
 	const handleForm = (data) => {
-		post('https://roykachani.vercel.app/api/contact', data);
+		post('https://www.roykachani.com/api/contact', data);
 		router.push('/');
 	};
 
