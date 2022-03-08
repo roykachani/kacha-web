@@ -20,6 +20,7 @@ export const AppLayout = ({ children, open, setOpen }) => {
 					name="keywords"
 					content="Software, Developer, Programmer, Web, Fullstack, Frontend, Backend"
 				/>
+				<link rel="canonical" href="https://roykachani.com/" />
 				<meta
 					name="google-site-verification"
 					content="U2v0SLdeGI6pcJaEP4RlwSe_2rtN40IT6e0I6hHRkx0"
@@ -51,8 +52,8 @@ export const AppLayout = ({ children, open, setOpen }) => {
 				/>
 				<link
 					href="https://fonts.cdnfonts.com/css/itc-avant-garde-pro-md"
-					rel="stylesheet"
-				></link>
+					rel="preload"
+				/>
 			</Head>
 
 			<main onClick={handleMenu}>{children}</main>

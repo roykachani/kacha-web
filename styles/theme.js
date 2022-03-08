@@ -3,6 +3,6 @@ export const breakpoints = {
 };
 
 export const fonts = {
-	primary: 'Urbanist, sans-serif',
-	secondary: 'ITC Avant Garde Pro Md , sans-serif',
+	primary: 'Urbanist',
+	secondary: 'ITC Avant Garde Pro Md ',
 };

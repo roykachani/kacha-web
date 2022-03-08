@@ -2,6 +2,14 @@ import css from 'styled-jsx/css';
 import { breakpoints, fonts } from '../../styles/theme';
 
 export const globalStyles = css.global`
+	@font-face {
+		font-family: 'ITC Avant Garde Pro Md', 'Urbanist';
+		font-style: normal;
+		font-weight: 400;
+		src: url('/fonts/ITCAvantGardePro-Md.woff') format('.woff');
+		font-display: swap;
+	}
+
 	* {
 		padding: 0;
 		margin: 0;
@@ -10,7 +18,7 @@ export const globalStyles = css.global`
 	html,
 	body {
 		background: #fff;
-		font-family: ${fonts.secondary};
+		font-family: ${fonts.secondary}, Sans-Serif, Helvetica;
 		height: 100vh;
 	}
 `;
