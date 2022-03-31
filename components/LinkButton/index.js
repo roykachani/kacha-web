@@ -7,6 +7,7 @@ export const LinkButton = ({ url, type }) => {
 			<Link href={url}>
 				<a className={styles.linkbutton} href={url} target="_blank">
 					{type === 'Project' && 'Open project'}
+					{type === 'Job' && 'Job'}
 				</a>
 			</Link>
 		</>

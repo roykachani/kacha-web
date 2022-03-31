@@ -1,5 +1,16 @@
 const works = [
 	{
+		startDate: 'Oct 2021',
+		endDate: 'Now',
+		name: 'Cavern',
+		role: 'Creator',
+		description:
+			'Cavern is an e-commerce still under development, made in React js and Express js in back. Using the authentication, the user can generate a shopping cart and then create purchase using Mercado Pago as payment method.',
+		type: 'Job',
+		url: 'https://cvn-store.vercel.app',
+		image: '../images/cvn.png',
+	},
+	{
 		startDate: 'Aug 2021',
 		endDate: 'Now',
 		name: 'Twittcoff',
