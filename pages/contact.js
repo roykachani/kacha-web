@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { ContactForm } from '../components/ContactForm/index';
+import { ContactForm } from '../components/ContactForm/index.js';
 import { Footer } from '../components/Footer';
 import { Nav } from '../components/Nav';
 import styles from '../styles/Contact.module.css';
