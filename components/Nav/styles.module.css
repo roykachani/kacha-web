@@ -1,114 +1,131 @@
 .header {
-	display: flex;
-	height: 120px;
-	width: 100%;
-	position: sticky;
-	border-bottom: 1px solid #0505051e;
-	top: 0;
-	justify-content: center;
-	align-items: center;
-	backdrop-filter: saturate(180%) blur(8px);
-	-webkit-backdrop-filter: saturate(180%) blur(8px);
-	padding: 32px;
-	z-index: 999;
+  display: flex;
+  height: 120px;
+  width: 100%;
+  position: sticky;
+  border-bottom: 1px solid #0505051e;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: saturate(180%) blur(8px);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  padding: 32px;
+  z-index: 999;
 }
 .header h1 {
-	font-size: 25px;
-	font-weight: 800;
+  font-size: 25px;
+  font-weight: 800;
 }
 .nav {
-	width: 900px;
+  width: 900px;
 }
 .nav_items {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 .dropDownMenu_container {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	height: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 .box_logo {
-	height: 27px;
+  height: 27px;
 }
 .logo {
-	width: 170px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* probando menu */
 
 .button {
-	border: none;
-	background: none;
-	cursor: pointer;
-	padding: 0;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
 }
 .img {
-	width: 2.5rem;
-	height: 2.5rem;
-	object-fit: cover;
-	border-radius: 999px;
-	-webkit-border-radius: 999px;
-	-moz-border-radius: 999px;
-	-ms-border-radius: 999px;
-	-o-border-radius: 999px;
-	transition-duration: 0.4s;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+  transition-duration: 0.4s;
 }
 .img:hover {
-	filter: grayscale(100);
-	-webkit-filter: grayscale(100);
-	transition-duration: 0.4s;
+  filter: grayscale(100);
+  -webkit-filter: grayscale(100);
+  box-shadow: 0px 0px 5px #12121233;
+  transition-duration: 0.4s;
 }
-
+.menuIcon {
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.menuIcon:hover {
+  box-shadow: 0px 0px 2px #12121233;
+  transition-duration: 0.4s;
+}
 /*responsive*/
 
 @media screen and (max-width: 540px) {
-	.header {
-		padding: 0;
-		height: 90px;
-	}
-	.nav {
-		margin: 0;
-		padding: 0 1rem;
-	}
+  .header {
+    padding: 0;
+    height: 90px;
+  }
+  .nav {
+    margin: 0;
+    padding: 0 1rem;
+  }
 }
 @media screen and (max-width: 767px) {
-	.header {
-		padding: 0;
-		height: 90px;
-	}
-	.nav {
-		margin: 0;
-		padding: 0 3rem;
-	}
-	.avatar {
-		padding-right: 0rem;
-	}
+  .header {
+    padding: 0;
+    height: 90px;
+  }
+  .nav {
+    margin: 0;
+    padding: 0 3rem;
+  }
+  .avatar {
+    padding-right: 0rem;
+  }
 
-	.logo {
-		padding-left: 0rem;
-	}
+  .logo {
+    padding-left: 0rem;
+  }
 }
 @media screen and (max-width: 1199px) {
-	.header {
-		padding: 0;
-		height: 90px;
-	}
-	.nav {
-		margin: 0;
-		padding: 0 3rem;
-	}
-	.avatar {
-		padding-right: 0rem;
-	}
+  .header {
+    padding: 0;
+    height: 90px;
+  }
+  .nav {
+    margin: 0;
+    padding: 0 3rem;
+  }
+  .avatar {
+    padding-right: 0rem;
+  }
 
-	.logo {
-		padding-left: 0rem;
-	}
+  .logo {
+    padding-left: 0rem;
+  }
 }
