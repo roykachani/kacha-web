@@ -13,12 +13,12 @@ export const AppLayout = ({ children, open, setOpen }) => {
         <meta name="title" content="Roy kachani | Software Developer" />
         <meta
           name="description"
-          content="I'm Roy Kachani a 30 years old Software developer born in Buenos Aires, Argentina."
+          content="I'm Roy Kachani a Software developer born in Buenos Aires, Argentina."
         />
         <meta content="Roy Kachani" name="copyright" />
         <meta
           name="keywords"
-          content="Software, Developer, Programmer, Web, Fullstack, Frontend, Backend"
+          content="Software, Developer, Programmer, Web, Fullstack, MERN, Fullstack MERN, Frontend, Backend, Projects, Jobs, Freelance, Freelancer, Roy Kachani, Roy, Kachani,Roy Kachani Software Developer, Roy Kachani Software Developer Projects, Roy Kachani Software Developer Jobs, Roy Kachani Software Developer Freelance"
         />
         <link rel="canonical" href="https://roykachani.com/" />
         <meta
@@ -32,7 +32,7 @@ export const AppLayout = ({ children, open, setOpen }) => {
         <meta property="og:url" content="https://roykachani.com/" />
         <meta
           property="og:description"
-          content="I'm Roy Kachani a 31 years old Software developer born in Buenos Aires, Argentina."
+          content="I'm Roy Kachani a Software developer born in Buenos Aires, Argentina."
         />
         <meta property="og:image" content="https://roykachani.com/me1.jpeg" />
 
