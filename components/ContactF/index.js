@@ -1,13 +1,13 @@
 import { useRouter } from 'next/dist/client/router';
 
 import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
+import { yupResolver } from '@hookform/resolvers/yup/dist/yup';
 
 import { usePost } from '../../hook/usePost';
 import { schema } from './schema';
 import styles from './styles.module.css';
 
-export const ContactForm = () => {
+export const ContactF = () => {
   const router = useRouter();
   const [post] = usePost();
 
