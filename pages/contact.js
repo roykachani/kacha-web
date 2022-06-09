@@ -1,8 +1,9 @@
 import Head from 'next/head';
 
-import { ContactForm } from '../components/ContactForm';
 import { Footer } from '../components/Footer';
 import { Nav } from '../components/Nav';
+import { ContactF } from '../components/ContactF';
+
 import styles from '../styles/Contact.module.css';
 
 export default function Contact({ open, setOpen }) {
@@ -17,7 +18,7 @@ export default function Contact({ open, setOpen }) {
           <h1>Contact me</h1>
         </div>
         <div className={styles.contact}>
-          <ContactForm />
+          <ContactF />
         </div>
       </div>
       <Footer />
