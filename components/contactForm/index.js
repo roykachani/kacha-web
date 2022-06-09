@@ -7,7 +7,7 @@ import { usePost } from '../../hook/usePost';
 import { schema } from './schema';
 import styles from './styles.module.css';
 
-const ContactForm = () => {
+export const ContactForm = () => {
   const router = useRouter();
   const [post] = usePost();
 
@@ -56,4 +56,3 @@ const ContactForm = () => {
     </div>
   );
 };
-export default ContactForm;
