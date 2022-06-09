@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { DropDownMenu } from '../DropDownMenu';
+import MenuIcon from '../Icons/MenuIcon';
 
 import styles from './styles.module.css';
 export const Nav = ({ open, setOpen }) => {
@@ -32,6 +33,9 @@ export const Nav = ({ open, setOpen }) => {
                   alt="Roy-img"
                   src="/me1.jpg"
                 />
+                <div className={styles.menuIcon}>
+                  <MenuIcon />
+                </div>
               </button>
               {!!open && (
                 <div className={styles.dropDownMenu_container}>
