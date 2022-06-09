@@ -1,7 +1,7 @@
 import { useRouter } from 'next/dist/client/router';
 
 import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup/dist/yup.umd';
+import { yupResolver } from '@hookform/resolvers/yup';
 
 import { usePost } from '../../hook/usePost';
 import { schema } from './schema';
