@@ -18,7 +18,7 @@ export const AppLayout = ({ children, open, setOpen }) => {
         <meta content="Roy Kachani" name="copyright" />
         <meta
           name="keywords"
-          content="Software, Developer, Programmer, Web, Fullstack, MERN, Fullstack MERN, Frontend, Backend, Projects, Jobs, Freelance, Freelancer, Roy Kachani, Roy, Kachani,Roy Kachani Software Developer, Roy Kachani Software Developer Projects, Roy Kachani Software Developer Jobs, Roy Kachani Software Developer Freelance"
+          content="Software, Developer, Programmer, Web, Fullstack, MERN, Fullstack MERN, Frontend, Backend, Projects, Jobs, Freelance, Freelancer, Roy Kachani, Roy, Kachani,Roy Kachani Software Developer, Roy Kachani Software Developer Projects, Roy Kachani Software Developer Jobs, Roy Kachani Software Developer Freelance, desarrollador web, software developer, roy kachani desarrollo web, devolop web aplications, react developer, frontend developer jobs, backend developer jobs"
         />
         <link rel="canonical" href="https://roykachani.com/" />
         <meta
@@ -34,7 +34,7 @@ export const AppLayout = ({ children, open, setOpen }) => {
           property="og:description"
           content="I'm Roy Kachani a Software developer born in Buenos Aires, Argentina."
         />
-        <meta property="og:image" content="https://roykachani.com/me1.jpeg" />
+        <meta property="og:image" content="https://roykachani.com/me1.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" value="@roykachani" />
