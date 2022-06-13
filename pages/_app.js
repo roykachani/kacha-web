@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Script
         strategy="afterInteractive"
-        src="https://www.googletamanager.com/gtag/js?id=G-P0T80701XL"
+        src="https://www.googletagmanager.com/gtag/js?id=G-P0T80701XL"
       />
       <Script strategy="afterInteractive" id="google-analytics">
         {`
