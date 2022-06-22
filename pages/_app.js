@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Script from 'next/script';
 
 import { AppLayout } from '../components/AppLayout';
+import { MainProvider } from '../context/mainContext';
 
 function MyApp({ Component, pageProps }) {
   const [open, setOpen] = useState(false);
@@ -21,7 +22,9 @@ function MyApp({ Component, pageProps }) {
 		`}
       </Script>
       <AppLayout open={open} setOpen={setOpen}>
-        <Component {...pageProps} open={open} setOpen={setOpen} />
+        <MainProvider>
+          <Component {...pageProps} open={open} setOpen={setOpen} />
+        </MainProvider>
       </AppLayout>
     </>
   );
