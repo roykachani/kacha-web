@@ -1,39 +1,75 @@
 .dropdown {
-	position: absolute;
-	margin-top: 0.3rem;
-	width: 120px;
-	background: #fff;
-	box-shadow: 0px 4px 10px #0505051a;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
+  position: absolute;
+  margin-top: 0.5rem;
+  top: 75px;
+  left: 1290px;
+  width: 120px;
+  background: #fff;
+  box-shadow: 0px 4px 10px #0505051a;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .menu_item {
-	height: 39px;
-	display: flex;
-	align-items: center;
-	border-radius: 10px;
-	justify-content: center;
-	color: #050505;
-	text-decoration: none;
-	transition: background #fff;
-	-webkit-transition: background #fff;
-	-moz-transition: background #fff;
-	-ms-transition: background #fff;
-	-o-transition: background #fff;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  color: #050505;
+  text-decoration: none;
+  transition: background #fff;
+  -webkit-transition: background #fff;
+  -moz-transition: background #fff;
+  -ms-transition: background #fff;
+  -o-transition: background #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .menu_item:hover {
-	background: #210b5f;
-	color: #fff;
-	transition-duration: 0.5s;
+  background: #210b5f;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+@media screen and (max-width: 1680px) {
+  .dropdown {
+    left: 1160px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .dropdown {
+    left: 1040px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dropdown {
+    top: 60px;
+    left: 790px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dropdown {
+    top: 60px;
+    left: 595px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .dropdown {
+    top: 60px;
+    left: 250px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .dropdown {
+    top: 60px;
+    left: 235px;
+  }
 }
 
 /* transform: translateX(-45%) para usar en mobile; */

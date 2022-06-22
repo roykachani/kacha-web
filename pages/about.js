@@ -1,15 +1,69 @@
+import { useContext, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { MainContext } from '../context/mainContext';
 import { Nav } from '../components/Nav';
 import { Footer } from '../components/Footer';
+import api from '../utils/api ';
+
 import styles from '../styles/About.module.css';
 
-export default function About({ open, setOpen }) {
+export default function About({ result, open, setOpen }) {
+  const { lang, getData } = useContext(MainContext);
+  const { eng, esp } = result;
+
+  useEffect(() => {
+    getData(result);
+  }, []);
+
+  if (lang === false)
+    return (
+      <>
+        <Head>
+          <title>{esp.info.about.title}</title>
+          <meta name="title" content={esp.info.about.title} />
+          <meta name="description" content={esp.info.about.description} />
+        </Head>
+        <Nav open={open} setOpen={setOpen} />
+        <div className={styles.about_container}>
+          <div className={styles.about_title}>
+            <h1>{esp.pages[2]}</h1>
+          </div>
+          <div className={styles.about_box}>
+            <span className={styles.about}>
+              {esp.about.line1}
+              <span className={styles.about_semiBold}>{esp.about.name}</span>
+              {esp.about.line2}
+              <br />
+              {esp.about.line3}
+              <br />
+              <span className={styles.about_semiBold}>{esp.about.line4}</span>
+              <br />
+              {esp.about.line5}
+              <br />
+              {esp.about.line6}
+              <span className={styles.about_semiBold}>{esp.about.line7}</span>
+              <br />
+              {esp.about.line8}
+            </span>
+            <Link href="/contact">
+              <a className={styles.button_contact} href="/contact">
+                {esp.contact_btn}
+              </a>
+            </Link>
+          </div>
+        </div>
+        <Footer />
+      </>
+    );
+
   return (
     <>
       <Head>
         <title>About | Roy Kachani</title>
+        <meta name="title" content={eng.info.about.title} />
+        <meta name="description" content={eng.info.about.description} />
       </Head>
       <Nav open={open} setOpen={setOpen} />
       <div className={styles.about_container}>
@@ -54,3 +108,13 @@ export default function About({ open, setOpen }) {
     </>
   );
 }
+
+export const getStaticProps = async () => {
+  const result = await api.get();
+
+  return {
+    props: {
+      result,
+    },
+  };
+};

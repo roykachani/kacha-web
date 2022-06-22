@@ -1,10 +1,16 @@
+import { useContext } from 'react';
 import Link from 'next/link';
 
 import { DropDownMenu } from '../DropDownMenu';
+// import { MainContext } from '../../context/MainContext';
 import MenuIcon from '../Icons/MenuIcon';
 
 import styles from './styles.module.css';
+import { MainContext } from '../../context/mainContext';
+
 export const Nav = ({ open, setOpen }) => {
+  const { lang, changeLang } = useContext(MainContext);
+
   return (
     <>
       <header className={styles.header}>
@@ -37,6 +43,11 @@ export const Nav = ({ open, setOpen }) => {
                   <MenuIcon />
                 </div>
               </button>
+              <div className={styles.btn_lang}>
+                <span onClick={changeLang} className={styles.lang_text}>
+                  {lang === true ? 'EN' : 'ES'}
+                </span>
+              </div>
               {!!open && (
                 <div className={styles.dropDownMenu_container}>
                   <DropDownMenu />
