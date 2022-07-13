@@ -75,7 +75,7 @@ const works = {
       role: 'Desarrollador',
       description:
         'Landing page para agencia digital. Implemente el desarrollo del frontend, y el mantenimiento de la web de la compania. Tecnologías: React con Next js, Gsap, Lottie files y mas. Todavia esta desarrollo.',
-      type: 'Job',
+      type: 'Trabajo',
       url: 'https://nt-website-demo.vercel.app/',
       image: '../images/nt.png',
     },
