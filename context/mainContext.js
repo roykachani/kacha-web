@@ -1,5 +1,4 @@
 import { useState, useEffect, createContext } from 'react';
-import { set } from 'react-hook-form';
 
 export const MainContext = createContext({
   lang: null,
