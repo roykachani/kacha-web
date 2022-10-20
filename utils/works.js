@@ -8,7 +8,7 @@ const works = {
       description:
         'Landing page for a digital agency company. I worked on the frontend, and oversaw the development of the company’s website. Technologies used: React with Next js, Gsap, Lottie files and more. The web is under construction.',
       type: 'Job',
-      url: 'https://nt-website-demo.vercel.app/',
+      url: 'https://nice-try.co/',
       image: '../images/nt.png',
     },
     {
