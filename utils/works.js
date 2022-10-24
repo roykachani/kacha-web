@@ -41,7 +41,7 @@ const works = {
       description:
         'Blogbox is a web-application project made in React js in the front hosted in Vercel, Express js in the back hosted in AWS with NginX and Mongoose for the database. It contains private routes validated both in front, using context, and in the back with jwt in local storage, allowing you to create and view a single post.',
       type: 'Project',
-      url: 'https://www.blogblox.com.ar',
+      url: 'https://blogbox.roykachani.com/',
       image: '../images/blogbox.png',
     },
     {
@@ -76,7 +76,7 @@ const works = {
       description:
         'Landing page para agencia digital. Implemente el desarrollo del frontend, y el mantenimiento de la web de la compania. Tecnologías: React con Next js, Gsap, Lottie files y mas. Todavia en desarrollo.',
       type: 'Trabajo',
-      url: 'https://nt-website-demo.vercel.app/',
+      url: 'https://nice-try.co/',
       image: '../images/nt.png',
     },
     {
@@ -109,7 +109,7 @@ const works = {
       description:
         'Blogbox es un proyecto Web App realizado en React js alojado en Vercel, Express js en en el back alojado en AWS con NginX y Mongoose para la base de datos. Contiene rutas privadas validadas tanto en el front, usando context, como en el back con jwt en el local storage, lo que le permite crear y ver publicaciones.',
       type: 'Proyecto',
-      url: 'https://www.blogblox.com.ar',
+      url: 'https://blogbox.roykachani.com/',
       image: '../images/blogbox.png',
     },
     {
